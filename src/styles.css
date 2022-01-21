@@ -45,3 +45,72 @@ section{
 .hero--text{
     margin-top: 0;
 }
+
+/* CARD COMPONENT STYLES */
+.card--image{
+    width: 176px;
+    height: 235px;
+}
+.card--reviews__star{
+    width: 14px;
+    height: 14px;
+    border-radius: 0.5px;
+    margin-right: 4px;
+}
+.card--reviews__punctuation{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+    margin-right: 4px;
+}
+.card--reviews__counter{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #918E9B;
+}
+.card--reviews__ellipse{
+    width: 2px;
+    height: 2px;
+    background: #918E9B;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+}
+.card--reviews__country{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #918E9B;
+}
+.card--title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+}
+.card--price{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+}
+.card--person{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+}
