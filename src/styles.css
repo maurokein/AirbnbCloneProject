@@ -47,12 +47,33 @@ section{
 }
 
 /* CARD COMPONENT STYLES */
+.card{
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;         
+    display: flex;          
+    flex-direction: column; 
+}
+
+.cards--list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
 
 .card--image{
-    width: 176px;
+    width: 175px;
     height: 235px;
     border-radius: 9px;
+    margin-bottom: 9px;
 }
+
+.card--reviews{
+    display: flex;
+    align-items: center;
+}
+
 .card--reviews__star{
     width: 14px;
     height: 14px;
@@ -99,6 +120,8 @@ section{
     font-size: 12px;
     line-height: 110%;
     color: #222222;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .card--price{
     font-family: Poppins;
@@ -107,6 +130,7 @@ section{
     font-size: 12px;
     line-height: 110%;
     color: #222222;
+    margin-top: auto;
 }
 .card--person{
     font-family: Poppins;
