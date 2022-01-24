@@ -10,12 +10,8 @@ export default function App(){
     const cards = data.map(card => 
     <Card 
         key = {card.id}
-        img = {card.coverImg}
-        punctuation = {card.stats.rating}
-        counter = {card.stats.reviewCount}
-        location = {card.location}
-        title = {card.title}
-        price = {card.price} />)
+        card = {card} // {...item} => equal states of item 
+         />)
     return(
         <div>
             <Navbar />
